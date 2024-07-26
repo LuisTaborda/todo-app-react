@@ -37,6 +37,16 @@ Once installed, add this plugin to your tsconfig.json:
 ```
 
 #### Icons [React-Icons](https://react-icons.github.io/react-icons/)
+`npm install react-icons --save`
+```typescript
+import { FaBeer } from 'react-icons/fa';
+
+class Question extends React.Component {
+  render() {
+    return <h3> Lets go for a <FaBeer />? </h3>
+  }
+}
+```
 
 #### Pallet Colors
 `Black #252525`
