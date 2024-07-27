@@ -1,0 +1,15 @@
+.buttonFilter{
+    background-color: var(--ccPurple);
+    border-radius: 5px;
+    select{
+        background-color: #0000;
+        border: none;
+        font-size: 18px;
+        padding: 10px;
+        width: 100px;
+        appearance: none;
+    }
+    .icon{
+        padding-right: 10px;
+    }
+}

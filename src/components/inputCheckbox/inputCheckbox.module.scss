@@ -1,0 +1,18 @@
+.inputCheckbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    .checked {
+        color: var(--ccPurple);
+    }
+
+    .unchecked {
+        color: var(--ccPurple);
+    }
+
+    p {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+}

@@ -50,9 +50,9 @@ class Question extends React.Component {
 
 #### Pallet Colors
 ```css
-.colors{
-  Black:  #252525;
-  White:  #6C63FF;
-  Purple: #DF7F7F7;
+:root {
+    --ccBlack:    #252525;
+    --ccPurple:   #6C63FF;
+    --ccWhite:    #F7F7F7;
 }
 ```
