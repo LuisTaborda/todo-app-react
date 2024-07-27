@@ -5,6 +5,7 @@
 
     .checked {
         color: var(--ccPurple);
+        
     }
 
     .unchecked {
@@ -14,5 +15,14 @@
     p {
         font-size: 20px;
         margin-left: 10px;
+    }
+    .finish{
+        text-decoration: line-through;
+        color:gray;
+    }
+
+    .pending{
+        text-decoration: none;
+        color:var(--ccWhite);
     }
 }

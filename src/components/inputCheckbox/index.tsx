@@ -16,7 +16,7 @@ export default function InputCheckbox(props: any) {
                     <MdCheckBox size={size} className={style.checked} /> :
                     <MdOutlineCheckBoxOutlineBlank size={size} className={style.unchecked} />
             }
-            <p>{label}</p>
+            <p className={checked ? style.finish : style.pending}>{label}</p>
         </div>
     )
 }
