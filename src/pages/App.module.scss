@@ -12,13 +12,24 @@ body, head, p, h1, h2, h3, h4 ,h5, select, button, input, div{
     margin: 0;
     background-color: var(--ccBlack);
     color: var(--ccWhite);
-    
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 75vw;
+    justify-content: stretch;
+    margin: auto;
+
     .app {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         margin-top: 25px;
+        width: 75vw;
+        height: 80vh;
+        margin: auto;
 
         .titulo {
             font-size: 26px;
@@ -27,7 +38,8 @@ body, head, p, h1, h2, h3, h4 ,h5, select, button, input, div{
         }
         
         .item{
-            border-bottom: 3px solid var(--ccPurple);
+            border-bottom: 1px solid var(--ccPurple);
+            width: 100%;
         }
         
         .item:last-child{

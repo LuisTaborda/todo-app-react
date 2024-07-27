@@ -4,25 +4,21 @@ import { FaRegTrashAlt } from "react-icons/fa";
 import { GoPencil } from "react-icons/go";
 import InputCheckbox from "../inputCheckbox";
 
-export default function Item(props : any) {
+export default function Item(props: any) {
 
     let [over, setOver] = React.useState(false);
-    let [click, setClick] = React.useState(false);
-    
+
     const name = props.name;
 
-    console.log(click);
-
     return (
-        <div className={style.item} onMouseOver={() => setOver(true)} onMouseOut={() => setOver(false)} onMouseUp={() => setClick(true)}>
+        <div className={style.item} onMouseOver={() => setOver(true)} onMouseOut={() => setOver(false)}>
             <InputCheckbox checked={false} label={name} />
-            {
-                over ?
-                    <div className={style.actions}>
-                        <GoPencil size={20} className={style.itemAction} />
-                        <FaRegTrashAlt size={20} className={style.itemAction} />
-                    </div>
-                    : <div></div>
+            {over ?
+                <div className={style.actions}>
+                    <GoPencil size={20} className={style.itemAction} />
+                    <FaRegTrashAlt size={20} className={style.itemAction} />
+                </div>
+                : <div></div>
             }
         </div>
     )

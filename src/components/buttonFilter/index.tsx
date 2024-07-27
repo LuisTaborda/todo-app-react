@@ -8,8 +8,8 @@ export default function ButtonFilter() {
             <select name="filter" id="filter">
                 <option value="all">ALL</option>
             </select>
-            <label htmlFor="filter" className={style.icon}>
-                <IoIosArrowDown />
+            <label htmlFor="filter">
+                <IoIosArrowDown/>
             </label>
         </div>
     )

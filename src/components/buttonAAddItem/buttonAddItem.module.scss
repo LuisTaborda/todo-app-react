@@ -1,0 +1,10 @@
+.icon{
+    color: var(--ccPurple);
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+.icon:hover{
+    color: var(--ccWhite);
+}
+
