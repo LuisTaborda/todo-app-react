@@ -21,7 +21,6 @@ body, head, p, h1, h2, h3, h4 ,h5, select, button, input, div{
     width: 75vw;
     justify-content: stretch;
     margin: auto;
-
     .app {
         display: flex;
         flex-direction: column;
@@ -29,7 +28,6 @@ body, head, p, h1, h2, h3, h4 ,h5, select, button, input, div{
         margin-top: 25px;
         width: 75vw;
         height: 80vh;
-        margin: auto;
 
         .titulo {
             font-size: 26px;

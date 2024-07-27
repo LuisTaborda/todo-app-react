@@ -17,6 +17,7 @@ function App() {
 
   return (
     <div className={style.page}>
+      
       <div className={style.app}>
         <p className={style.titulo}>{titulo}</p>
         <Inputs />
@@ -28,6 +29,7 @@ function App() {
         ))}
 
       </div>
+
       <div className={style.action}>
         <ButtonAddItem />
       </div>

@@ -1,31 +1,16 @@
-.item{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  margin: 10px 0;
-  .container {
-      display: flex;
-      align-items: center;
-      position: relative;
-      padding-left: 35px;
-      margin-bottom: 12px;
-      cursor: pointer;
-      font-size: 22px;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+
+    .itemAction:hover {
+        color: var(--ccPurple);
     }
 
-    .actions{
-
-    }
-    .itemAction:last-child{
-      margin-left: 10px;
+    .itemAction:last-child {
+        margin-left: 10px;
     }
 
-    .itemAction:hover{
-      color:var(--ccPurple);
-    }
 }
