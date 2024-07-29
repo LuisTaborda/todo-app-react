@@ -1,28 +1,28 @@
-.inputCheckbox {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+// .inputCheckbox {
+//     display: flex;
+//     align-items: center;
+//     cursor: pointer;
 
-    .checked {
-        color: var(--ccPurple);
+//     .checked {
+//         color: var(--ccPurple);
         
-    }
+//     }
 
-    .unchecked {
-        color: var(--ccPurple);
-    }
+//     .unchecked {
+//         color: var(--ccPurple);
+//     }
 
-    p {
-        font-size: 20px;
-        margin-left: 10px;
-    }
-    .finish{
-        text-decoration: line-through;
-        color:gray;
-    }
+//     p {
+//         font-size: 20px;
+//         margin-left: 10px;
+//     }
+//     .finish{
+//         text-decoration: line-through;
+//         color:gray;
+//     }
 
-    .pending{
-        text-decoration: none;
-        color:var(--ccWhite);
-    }
-}
+//     .pending{
+//         text-decoration: none;
+//         color:var(--ccWhite);
+//     }
+// }
